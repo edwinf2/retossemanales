@@ -14,6 +14,7 @@ import java.util.*;
 public class Anagrama {
     public static void main(String[] args) {
         System.out.println(esAnagrama("tomate", "temato"));
+
     }
 
     private static Boolean esAnagrama(String primerPalabra, String segundaPalabra){
@@ -40,7 +41,6 @@ public class Anagrama {
             }
 
         }
-
         return frecuencia.isEmpty();
     }
 }
