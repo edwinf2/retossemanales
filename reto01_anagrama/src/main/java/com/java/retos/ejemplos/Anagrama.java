@@ -40,7 +40,6 @@ public class Anagrama {
             }
 
         }
-
         return frecuencia.isEmpty();
     }
 }
